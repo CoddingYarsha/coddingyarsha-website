@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <img class="logo" src="Logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+    <div class="quiz-container">
+       
+            <h1>Advanced Quiz</h1>
+      
+        <main>
+            <div id="quiz">
+                <!-- Quiz questions and options dynamically loaded here -->
+            </div>
+            <div id="result" style="display: none;">
+                <h2>Quiz Results</h2>
+                <p id="score"></p>
+                <button onclick="resetQuiz()">Take Quiz Again</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Advanced Quiz Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
